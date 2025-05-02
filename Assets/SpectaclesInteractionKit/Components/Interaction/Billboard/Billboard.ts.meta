@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> 5dd8a447-2f95-4012-b338-ccf1d5dba1ad
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/35bb0f1f-2e76-4932-bd13-f7620d051a12> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/5dd8a447-2f95-4012-b338-ccf1d5dba1ad>
   SvgIcon: ""
   Description: ""
@@ -29,7 +32,8 @@
     _yAxisEnabled: false
     _zAxisEnabled: false
     duration: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - _xAxisEnabled: false
       _yAxisEnabled: true
@@ -38,13 +42,15 @@
       _axisEasing: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
       duration: 0.033000
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
-    - // @ui {"widget":"group_start", "label":"Billboard"}
+    - '// @ui {"widget":"group_start", "label":"Billboard"}'
     - // @input bool _xAxisEnabled
     - // @input bool _yAxisEnabled = true
     - // @input bool _zAxisEnabled
-    - // @input vec3 _axisBufferDegrees {"hint":"How big the angle must be to start rotating about that axis"}
-    - // @input vec3 _axisEasing {"hint":"How fast the target should rotate to follow camera, instant follow = 1, delay follow = 0.1"}
-    - // @input float duration = 0.033 {"hint":"The expected duration between updates, expecting ~30FPS = 0.033; lower duration = faster rotation"}
-    - // @ui {"widget":"group_end"}
+    - '// @input vec3 _axisBufferDegrees = {0,0,0} {"hint":"How big the angle must be to start rotating about that axis"}'
+    - '// @input vec3 _axisEasing = {1,1,1} {"hint":"How fast the target should rotate to follow camera, instant follow = 1, delay follow = 0.1"}'
+    - '// @input float duration = 0.033 {"hint":"The expected duration between updates, expecting ~30FPS = 0.033; lower duration = faster rotation"}'
+    - '// @ui {"widget":"group_end"}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

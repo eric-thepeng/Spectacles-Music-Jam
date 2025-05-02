@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> b347f196-445f-45cc-9059-26b1db8f64de
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/844ff870-4abf-4b08-9adb-78340269c594> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/b347f196-445f-45cc-9059-26b1db8f64de>
   SvgIcon: ""
   Description: ""
@@ -26,14 +29,17 @@
     previewInWorld: false
     snappingToggle: false
     voiceMLModule: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - previewInWorld: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       voiceMLModule: !<reference.WorldQueryModule> 00000000-0000-0000-0000-000000000000
       snappingToggle: !<MappingBased.ToggleButton> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
     - // @input SceneObject previewInWorld
     - // @input Asset.WorldQueryModule voiceMLModule
     - // @input ToggleButton snappingToggle
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

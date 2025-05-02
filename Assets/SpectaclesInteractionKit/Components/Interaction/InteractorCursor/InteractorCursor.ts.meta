@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> 9d68d35e-ae73-4d84-8dd5-d2de73d185d7
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/183f5982-fd04-42dc-86c4-0d5748268452> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/9d68d35e-ae73-4d84-8dd5-d2de73d185d7>
   SvgIcon: ""
   Description: ""
@@ -26,14 +29,17 @@
     _interactor: false
     enableCursorSnapping: false
     enableFilter: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - enableCursorSnapping: true
       enableFilter: false
       _interactor: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
     - // @input bool enableCursorSnapping = true
     - // @input bool enableFilter
     - // @input Component.ScriptComponent _interactor
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

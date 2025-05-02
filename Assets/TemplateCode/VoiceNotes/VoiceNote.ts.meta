@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> 902be18a-1ccd-46f5-87af-1aef3983d7d3
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/8558d96c-7fb6-42fa-8f51-7402a9c25bed> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/902be18a-1ccd-46f5-87af-1aef3983d7d3>
   SvgIcon: ""
   Description: ""
@@ -28,7 +31,8 @@
     noteMesh: false
     recordToggle: false
     textField: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - textField: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
       recordToggle: !<MappingBased.ToggleButton> 00000000-0000-0000-0000-000000000000
@@ -36,10 +40,12 @@
       noteInteractable: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
       noteMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
     - // @input Component.Text textField
     - // @input ToggleButton recordToggle
     - // @input PinchButton deleteButton
     - // @input Interactable noteInteractable
     - // @input Component.RenderMeshVisual noteMesh
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> affc12b2-1dd2-49b6-9e60-d48ba14bf896
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/18020884-b822-446f-85e2-1d6e5ea7d8ce> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/affc12b2-1dd2-49b6-9e60-d48ba14bf896>
   SvgIcon: ""
   Description: ""
@@ -36,7 +39,8 @@
     sphereCastEnabled: false
     spherecastDistanceThresholds: false
     spherecastRadii: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - _drawDebug: false
       sphereCastEnabled: false
@@ -58,28 +62,30 @@
       directColliderExitRadius: 1.500000
       directDragThreshold: !<float> 3.000000
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
-    - // @ui {"widget":"group_start", "label":"Interactor"}
+    - '// @ui {"widget":"group_start", "label":"Interactor"}'
     - // @input bool _drawDebug
-    - // @ui {"widget":"group_start", "label":"Spherecast Configuration"}
+    - '// @ui {"widget":"group_start", "label":"Spherecast Configuration"}'
     - // @input bool sphereCastEnabled
-    - // @input number[] spherecastRadii = "{0.5, 2.0, 4.0}" {"showIf":"sphereCastEnabled", "showIfValue":true}
-    - // @input number[] spherecastDistanceThresholds = "{0, 12, 30}" {"showIf":"sphereCastEnabled", "showIfValue":true}
-    - // @ui {"widget":"group_end"}
-    - // @ui {"widget":"group_start", "label":"Targeting Configuration"}
+    - '// @input number[] spherecastRadii = "{0.5, 2.0, 4.0}" {"showIf":"sphereCastEnabled", "showIfValue":true}'
+    - '// @input number[] spherecastDistanceThresholds = "{0, 12, 30}" {"showIf":"sphereCastEnabled", "showIfValue":true}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Targeting Configuration"}'
     - // @input float _maxRaycastDistance = 500
     - // @input float indirectTargetingVolumeMultiplier = 1
-    - // @ui {"widget":"group_end"}
-    - // @ui {"widget":"group_start", "label":"Indirect Drag Provider"}
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Indirect Drag Provider"}'
     - // @input float indirectDragThreshold = 3
-    - // @ui {"widget":"group_end"}
-    - // @ui {"widget":"group_end"}
-    - // @ui {"widget":"group_start", "label":"Hand Interactor"}
-    - // @input string handType = "right" {"widget":"combobox", "values":[{"label":"Left", "value":"left"}, {"label":"Right", "value":"right"}]}
-    - // @input string raycastAlgorithm = "Proxy" {"hint":"Forwards the TargetingData received from LensCore's Gesture Module", "widget":"combobox", "values":[{"label":"AnchorVariableShoulder", "value":"AnchorVariableShoulder"}, {"label":"LegacySingleCamera", "value":"LegacySingleCamera"}, {"label":"AnchorHead", "value":"AnchorHead"}, {"label":"Proxy", "value":"Proxy"}]}
-    - // @input bool forcePokeOnNonDominantPalmProximity {"hint":"Forces the usage of Poke targeting when interacting near the nondominant hand's palm."}
-    - // @input float directColliderEnterRadius = 1 {"hint":"The radius around the midpoint of the index/thumb to target Interactables."}
-    - // @input float directColliderExitRadius = 1.5 {"hint":"The radius around the midpoint of the index/thumb to de-target Interactables (for bistable thresholding)."}
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Hand Interactor"}'
+    - '// @input string handType = "right" {"widget":"combobox", "values":[{"label":"Left", "value":"left"}, {"label":"Right", "value":"right"}]}'
+    - "// @input string raycastAlgorithm = \"Proxy\" {\"hint\":\"Forwards the TargetingData received from LensCore's Gesture Module\", \"widget\":\"combobox\", \"values\":[{\"label\":\"AnchorVariableShoulder\", \"value\":\"AnchorVariableShoulder\"}, {\"label\":\"LegacySingleCamera\", \"value\":\"LegacySingleCamera\"}, {\"label\":\"AnchorHead\", \"value\":\"AnchorHead\"}, {\"label\":\"Proxy\", \"value\":\"Proxy\"}]}"
+    - "// @input bool forcePokeOnNonDominantPalmProximity {\"hint\":\"Forces the usage of Poke targeting when interacting near the nondominant hand's palm.\"}"
+    - '// @input float directColliderEnterRadius = 1 {"hint":"The radius around the midpoint of the index/thumb to target Interactables."}'
+    - '// @input float directColliderExitRadius = 1.5 {"hint":"The radius around the midpoint of the index/thumb to de-target Interactables (for bistable thresholding)."}'
     - // @input float directDragThreshold = 3
-    - // @ui {"widget":"group_end"}
+    - '// @ui {"widget":"group_end"}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

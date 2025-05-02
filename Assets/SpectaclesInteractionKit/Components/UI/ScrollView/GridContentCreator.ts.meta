@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> c476947d-296a-4397-b428-cae49bcdc3c1
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/67c18e38-d905-456a-b69b-3ab426e3e531> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/c476947d-296a-4397-b428-cae49bcdc3c1>
   SvgIcon: ""
   Description: ""
@@ -25,12 +28,15 @@
   ScriptInputsHidden:
     itemPrefab: false
     itemsCount: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - itemPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
       itemsCount: !<float> 10.000000
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
     - // @input Asset.ObjectPrefab itemPrefab
     - // @input float itemsCount = 10
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

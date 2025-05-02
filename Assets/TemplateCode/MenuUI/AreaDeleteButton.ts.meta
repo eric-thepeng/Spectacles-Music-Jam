@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> 34640663-7f14-4e76-bd57-7438ad994fc8
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/70b5d220-0aea-4138-a1e2-a42fef5c7701> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/34640663-7f14-4e76-bd57-7438ad994fc8>
   SvgIcon: ""
   Description: ""
@@ -25,12 +28,15 @@
   ScriptInputsHidden:
     buttonMesh: false
     textComponent: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - textComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
       buttonMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
     - // @input Component.Text textComponent
     - // @input Component.RenderMeshVisual buttonMesh
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

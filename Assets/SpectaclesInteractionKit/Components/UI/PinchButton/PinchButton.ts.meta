@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> b86e782f-e9bd-41ee-91d4-75d22a8eb1d3
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/29e246b2-5bcc-4141-ad88-79c06ea817da> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/b86e782f-e9bd-41ee-91d4-75d22a8eb1d3>
   SvgIcon: ""
   Description: ""
@@ -26,16 +29,20 @@
     customFunctionForOnButtonPinched: false
     editEventCallbacks: false
     onButtonPinchedFunctionNames: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - editEventCallbacks: false
       customFunctionForOnButtonPinched: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      onButtonPinchedFunctionNames: !<string[]> []
+      onButtonPinchedFunctionNames: !<string[]>
+        []
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
-    - // @input bool editEventCallbacks {"hint":"Enable this to add functions from another script to this component's callback events"}
-    - // @ui {"widget":"group_start", "label":"On Button Pinched Callbacks", "showIf":"editEventCallbacks"}
-    - // @input Component.ScriptComponent customFunctionForOnButtonPinched {"hint":"The script containing functions to be called when button is pinched"}
-    - // @input string[] onButtonPinchedFunctionNames {"hint":"The names for the functions on the provided script, to be called on button pinch"}
-    - // @ui {"widget":"group_end"}
+    - "// @input bool editEventCallbacks {\"hint\":\"Enable this to add functions from another script to this component's callback events\"}"
+    - '// @ui {"widget":"group_start", "label":"On Button Pinched Callbacks", "showIf":"editEventCallbacks"}'
+    - '// @input Component.ScriptComponent customFunctionForOnButtonPinched {"hint":"The script containing functions to be called when button is pinched"}'
+    - '// @input string[] onButtonPinchedFunctionNames = {} {"hint":"The names for the functions on the provided script, to be called on button pinch"}'
+    - '// @ui {"widget":"group_end"}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

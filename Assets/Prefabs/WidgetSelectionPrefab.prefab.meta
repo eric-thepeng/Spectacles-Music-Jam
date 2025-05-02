@@ -9,7 +9,7 @@
     ObjectPrefab: !<own> 313c8b85-5464-4240-aec5-c147ad8cd99a
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/704e149f-68aa-438c-a51a-cd0344e29210>
+  ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
   ExtraData:
@@ -346,6 +346,7 @@
     x: !<float> 1.000000
     y: !<float> 1.000000
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  RotationAngle: 0
 - !<ScriptComponent/946f240b-e170-4d1b-b55b-8b7b346e605b>
   PrefabRemaps:
     []

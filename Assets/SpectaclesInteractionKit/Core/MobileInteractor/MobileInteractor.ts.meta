@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> c39b7027-c636-436c-9d08-6d99958b47ca
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/5aefd70b-90a1-4abb-b1ac-25b090c1ddb0> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/c39b7027-c636-436c-9d08-6d99958b47ca>
   SvgIcon: ""
   Description: ""
@@ -33,7 +36,8 @@
     spherecastDistanceThresholds: false
     spherecastRadii: false
     touchpadDragThreshold: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - _drawDebug: false
       sphereCastEnabled: false
@@ -52,25 +56,27 @@
       _touchpadScrollSpeed: !<float> 250.000000
       touchpadDragThreshold: 0.050000
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
-    - // @ui {"widget":"group_start", "label":"Interactor"}
+    - '// @ui {"widget":"group_start", "label":"Interactor"}'
     - // @input bool _drawDebug
-    - // @ui {"widget":"group_start", "label":"Spherecast Configuration"}
+    - '// @ui {"widget":"group_start", "label":"Spherecast Configuration"}'
     - // @input bool sphereCastEnabled
-    - // @input number[] spherecastRadii = "{0.5, 2.0, 4.0}" {"showIf":"sphereCastEnabled", "showIfValue":true}
-    - // @input number[] spherecastDistanceThresholds = "{0, 12, 30}" {"showIf":"sphereCastEnabled", "showIfValue":true}
-    - // @ui {"widget":"group_end"}
-    - // @ui {"widget":"group_start", "label":"Targeting Configuration"}
+    - '// @input number[] spherecastRadii = "{0.5, 2.0, 4.0}" {"showIf":"sphereCastEnabled", "showIfValue":true}'
+    - '// @input number[] spherecastDistanceThresholds = "{0, 12, 30}" {"showIf":"sphereCastEnabled", "showIfValue":true}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Targeting Configuration"}'
     - // @input float _maxRaycastDistance = 500
     - // @input float indirectTargetingVolumeMultiplier = 1
-    - // @ui {"widget":"group_end"}
-    - // @ui {"widget":"group_start", "label":"Indirect Drag Provider"}
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Indirect Drag Provider"}'
     - // @input float indirectDragThreshold = 3
-    - // @ui {"widget":"group_end"}
-    - // @ui {"widget":"group_end"}
-    - // @ui {"widget":"group_start", "label":"Mobile Interactor"}
-    - // @input bool initializePositionAndRotationFilter = true {"hint":"Initialize Mobile Input Data Provider with Position and Rotation Filtering"}
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Mobile Interactor"}'
+    - '// @input bool initializePositionAndRotationFilter = true {"hint":"Initialize Mobile Input Data Provider with Position and Rotation Filtering"}'
     - // @input float _touchpadScrollSpeed = 250
     - // @input float touchpadDragThreshold = 0.05
-    - // @ui {"widget":"group_end"}
+    - '// @ui {"widget":"group_end"}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

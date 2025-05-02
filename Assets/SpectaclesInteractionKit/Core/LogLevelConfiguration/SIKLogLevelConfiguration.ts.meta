@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> 92263fdd-c53c-4031-8006-284e983c9d56
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/5b941882-72fa-484d-9ae2-fdba94442b9e> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/92263fdd-c53c-4031-8006-284e983c9d56>
   SvgIcon: ""
   Description: ""
@@ -24,10 +27,13 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     logLevelFilter: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - logLevelFilter: 8
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
-    - // @input int logLevelFilter = 8 {"widget":"combobox", "values":[{"label":"Error", "value":3}, {"label":"Warning", "value":4}, {"label":"Info", "value":6}, {"label":"Debug", "value":7}, {"label":"Verbose", "value":8}]}
+    - '// @input int logLevelFilter = 8 {"widget":"combobox", "values":[{"label":"Error", "value":3}, {"label":"Warning", "value":4}, {"label":"Info", "value":6}, {"label":"Debug", "value":7}, {"label":"Verbose", "value":8}]}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

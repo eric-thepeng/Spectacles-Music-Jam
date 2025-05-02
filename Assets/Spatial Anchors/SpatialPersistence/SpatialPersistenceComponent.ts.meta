@@ -6,11 +6,14 @@
   PackageType: NotAPackage
   AssetDataMap:
     TypeScriptAsset: !<own> d8c140a2-4bcc-41b0-8767-ee6e23363926
-  ImporterSettings: !<AssetImporterSettings/68faec08-3daf-46df-9130-dae2a4cc6b45> {}
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   PackagePolicy: CannotBeUnpacked
-  DependentFiles: []
+  DependentFiles:
+    []
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/d8c140a2-4bcc-41b0-8767-ee6e23363926>
   InputLines:
     - // @input Asset.LocationCloudStorageModule locationCloudStorageModule
@@ -40,7 +43,8 @@
     mappingInterval: false
     resetDelayInS: false
     useLocalStorage: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - locationCloudStorageModule: !<reference.LocationCloudStorageModule> 00000000-0000-0000-0000-000000000000
       useLocalStorage: false
@@ -51,4 +55,6 @@
       enableLoggingPoseSettling: false
       connectedLensModule: !<reference.ConnectedLensModule> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    - {}
+    -
+      {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

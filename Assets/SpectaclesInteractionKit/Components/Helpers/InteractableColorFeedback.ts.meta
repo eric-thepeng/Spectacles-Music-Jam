@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> 29e5d11b-41b7-47bd-8efa-3afc818e3555
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/e6187837-be22-44d7-a00d-d7c2822a12e8> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/29e5d11b-41b7-47bd-8efa-3afc818e3555>
   SvgIcon: ""
   Description: ""
@@ -28,18 +31,22 @@
     hoverColor: false
     meshVisuals: false
     pinchedColor: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - defaultColor: !<Vec4> {x: 0.280000, y: 0.280000, z: 0.280000, w: 1.000000}
       hoverColor: !<Vec4> {x: 0.280000, y: 0.280000, z: 0.280000, w: 1.000000}
       pinchedColor: !<Vec4> {x: 0.460000, y: 0.460000, z: 0.460000, w: 1.000000}
       disabledColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.000000}
-      meshVisuals: !<reference.RenderMeshVisual[]> []
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        []
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
-    - // @input vec4 defaultColor = "{0.28, 0.28, 0.28, 1}" {"widget":"color"}
-    - // @input vec4 hoverColor = "{0.28, 0.28, 0.28, 1}" {"widget":"color"}
-    - // @input vec4 pinchedColor = "{0.46, 0.46, 0.46, 1}" {"widget":"color"}
-    - // @input vec4 disabledColor = "{1, 1, 1, 0}" {"widget":"color"}
-    - // @input Component.RenderMeshVisual[] meshVisuals {"hint":"The meshes which will have their baseColor changed on pinch/hover events"}
+    - '// @input vec4 defaultColor = "{0.28, 0.28, 0.28, 1}" {"widget":"color"}'
+    - '// @input vec4 hoverColor = "{0.28, 0.28, 0.28, 1}" {"widget":"color"}'
+    - '// @input vec4 pinchedColor = "{0.46, 0.46, 0.46, 1}" {"widget":"color"}'
+    - '// @input vec4 disabledColor = "{1, 1, 1, 0}" {"widget":"color"}'
+    - '// @input Component.RenderMeshVisual[] meshVisuals = {} {"hint":"The meshes which will have their baseColor changed on pinch/hover events"}'
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

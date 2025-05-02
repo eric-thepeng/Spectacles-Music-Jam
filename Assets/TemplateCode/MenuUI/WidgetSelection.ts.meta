@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> 1d84628f-5dc5-46a0-a5c6-682fb1dcdf64
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/98461e61-8576-48e2-945d-dce6ef6421a7> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/1d84628f-5dc5-46a0-a5c6-682fb1dcdf64>
   SvgIcon: ""
   Description: ""
@@ -24,10 +27,13 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     interactable: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - interactable: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
     - // @input Interactable interactable
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

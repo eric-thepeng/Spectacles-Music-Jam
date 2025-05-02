@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     TypeScriptAsset: !<own> 17a4b436-8494-4892-a719-0e8e539b72cd
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/1667f6d7-2be3-4f98-a22d-3ed8ef4f0e8f> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<TypeScriptAssetData/17a4b436-8494-4892-a719-0e8e539b72cd>
   SvgIcon: ""
   Description: ""
@@ -31,9 +34,11 @@
     widgetParent: false
     widgetPrefabs: false
     widgetSelectionUI: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
-    - widgetPrefabs: !<reference.ObjectPrefab[]> []
+    - widgetPrefabs: !<reference.ObjectPrefab[]>
+        []
       areaPromptButton: !<MappingBased.AreaPromptButton> 00000000-0000-0000-0000-000000000000
       areaSelectionMenu: !<MappingBased.AreaSelectionMenu> 00000000-0000-0000-0000-000000000000
       widgetParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
@@ -43,7 +48,8 @@
       areaDeleteButton: !<MappingBased.AreaDeleteButton> 00000000-0000-0000-0000-000000000000
       toggleMenuButton: !<MappingBased.ToggleMenuButton> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    - {}
+    -
+      {}
   InputLines:
     - // @input WidgetSelectionUI widgetSelectionUI
     - // @input LockWidgetButton lockWidgetButton
@@ -51,5 +57,6 @@
     - // @input AreaSelectionMenu areaSelectionMenu
     - // @input ToggleMenuButton toggleMenuButton
     - // @input SceneObject widgetParent
-    - // @input Asset.ObjectPrefab[] widgetPrefabs
+    - "// @input Asset.ObjectPrefab[] widgetPrefabs"
     - // @input Component.Text instructionText
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
