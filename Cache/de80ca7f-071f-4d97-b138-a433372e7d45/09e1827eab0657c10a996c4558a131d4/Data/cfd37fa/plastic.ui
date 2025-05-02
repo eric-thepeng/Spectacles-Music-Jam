@@ -1,0 +1,70 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{ 
+                	"bindingName": "Tweak_N30", 
+                	"label":       "Color Map", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "Tweak_N2",
+                	"label":       "ColorChange",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N4t45",
+                	"label":       "Intensity",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                { 
+                	"bindingName": "Tweak_N16", 
+                	"label":       "Simpl", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER"
+	]
+}

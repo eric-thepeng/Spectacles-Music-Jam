@@ -1,0 +1,9 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 3
+    values:
+      - Scene.scene
+      - SpectaclesSyncKit/SpectaclesInteractionKit/package.native
+      - SpectaclesSyncKit/package.native
+  options: 4

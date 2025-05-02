@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4046853b-cf88-4aac-872d-11543661cac7: 8eaa1264-ed14-4d0f-a0a4-12761d1fcec2/d504671bbd2b687d3e0f98b4e148d354/Data/ColorChange_map.jpg
+  Assets:
+    - !<FileTexture/4046853b-cf88-4aac-872d-11543661cac7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 4
+        Height: 4
+  SourceHash: d504671bbd2b687d3e0f98b4e148d354
+  FileHash: 2da57a9b3b134e0e48f593f2bcf2cd76
+  NativePackageItems:
+    []
