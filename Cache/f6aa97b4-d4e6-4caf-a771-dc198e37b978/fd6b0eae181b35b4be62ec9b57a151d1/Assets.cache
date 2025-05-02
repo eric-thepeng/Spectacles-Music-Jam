@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    efd97893-7c44-4832-be4c-15f0513fe789: f6aa97b4-d4e6-4caf-a771-dc198e37b978/fd6b0eae181b35b4be62ec9b57a151d1/Data/mic-on.png
+  Assets:
+    - !<FileTexture/efd97893-7c44-4832-be4c-15f0513fe789>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 105
+        Height: 105
+  SourceHash: fd6b0eae181b35b4be62ec9b57a151d1
+  FileHash: fa46416c6d53875cc0fe5792a1ecaafb
+  NativePackageItems:
+    []

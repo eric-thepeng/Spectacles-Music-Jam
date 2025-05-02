@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8b21e25c-82e6-4a6a-bf1a-57d6943a4b70: 62b33286-b297-486c-b60d-2e936b58875b/e734df138baf78f3f8864cdb6343fe14/Data/PlaceholderMoveMeTexture.png
+  Assets:
+    - !<FileTexture/8b21e25c-82e6-4a6a-bf1a-57d6943a4b70>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: e734df138baf78f3f8864cdb6343fe14
+  FileHash: e526ea949c00e1492513f9378d08e5e7
+  NativePackageItems:
+    []
